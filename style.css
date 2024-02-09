@@ -1,0 +1,191 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    background-color:#0202022b;
+
+    
+    
+}
+nav ul{
+    display: flex;
+    justify-content: center;
+    
+}
+nav ul li,.register,.signin{
+    list-style: none;
+    margin: 8px 7px;
+    padding: 3px;
+    color: aliceblue;
+    cursor: pointer;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.reg{
+    display: flex;
+}
+.logo{
+    color: aliceblue;
+    font-size: 1.3rem;
+    margin: 4px 12px;
+    font-weight: 700;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.box{
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+   
+  
+}
+.mainTitle{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 5.1rem;
+}
+.mainTitle h3,.mainTitle p{
+    color: aliceblue;
+    z-index: 1;
+    
+}
+.mainTitle h3{
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.mainTitle p{
+    font-size: 14px;
+      font-family: Arial, Helvetica, sans-serif;
+}
+.conatiner-1,.container-2,.container-3{
+    position: absolute;
+    
+    
+}
+.container-1{
+    
+    
+    height: 45vh;
+    width: 100vw;
+    background-image:url(img/abstract-purple-trendy-background-cool-background-design-for-posters-vector.jpg ) ;
+   
+}
+.container-2{
+    
+    background-color: rgb(255, 255, 255);
+    width: 86vw;
+    height: auto;
+    transform: translate(-1%,-40%);
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
+    z-index: 1;
+    border-radius: 12px;
+   
+}
+.container-3{
+    background-color: rgb(238, 238, 238);
+    width: 100vw;
+    height: 50vh;
+}
+
+
+
+footer{
+    background-color: aquamarine;
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+}
+.center{
+    display: flex;
+    justify-content: center;
+}
+
+.container-2 h4{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    display: flex;
+    justify-content: center;
+    font-size: 1.6rem;
+    font-weight: 800;
+    color: rgb(46, 60, 87);
+    margin: 12px;
+}
+.box2{
+    display: flex;
+    justify-content: center;
+}
+.room{
+    width: 25vw;
+    height: 9vh;
+    margin: 0 11px;
+}
+.room h5{
+    font-weight: 700;
+    color: rgb(46, 60, 87);
+    font-family: Arial, Helvetica, sans-serif;
+}
+.ipt{
+    width: 100%;
+    height: 100%;
+   border-radius: 5px;
+    padding: 12px 40px 12px 12px;
+    border: .6px solid black;
+    cursor: pointer;
+    
+}
+.ipt input:focus{
+    outline: rgb(230, 55, 11);
+    border: 1px solid rgb(224, 26, 16);
+}
+
+.box3{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+    width: 70vw;
+    margin-left: 59px;
+    margin-bottom: 2rem;
+}
+.box3 p{
+    background-color: rgba(199, 201, 203, 0.488);
+    font-size: 12px;
+    width: 30vw;
+    border-radius: 7px;
+    padding: 5px;
+   
+}
+.box3 button{
+    background-color: #206af6;
+    color: #f3f3f3;
+    border-radius: 11px;
+    border: .5px black ;
+    width: 122px;
+    height: 40px;
+    font-size: 18px;
+    cursor: pointer;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.ans{
+    
+    margin-top: 1.9rem;
+    margin-left: 4rem;
+  
+}
+
+.inputval{
+    font-size: 1rem;
+    font-weight: 600;
+    color: rgb(46, 60, 87);
+    
+}
+.ansval{
+    font-size: 2rem;
+    font-weight: 600;
+    color: rgb(46, 60, 87);
+}

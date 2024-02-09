@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Currency Converter</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="box">
+    <div class="container-1">
+      <header>
+        <nav>
+          <div class="logo">MyCurrencyConverter</div>
+          <ul>
+            <li>Send Money</li>
+            <li>Converter</li>
+            <li>Currency Api</li>
+            <li>Tools</li>
+            <li>Resources</li>
+          </ul>
+          <div class="reg">
+          <div class="signin" id="signin">Sign in</div>
+          <div class="register" id="register">Register</div>
+        </div>
+        </nav>
+      </header>
+      <main>
+          <div class="mainTitle">
+            <h3>My Currency Converter</h3>
+            <p>Check live foreign currency exchange rates</p>
+          </div>
+        </div>
+        <div class="center">
+        <div class="container-2" >
+            <h4>Convert</h4>
+            <div class="box2">
+              <div class="room">
+                <h5>Amount</h5>
+                <input type="text" class="ipt" id="numericInput" oninput="this.value = this.value.replace(/[^0-9]/g, '')">
+ 
+              </div>
+              <div class="room">
+                <h5>From</h5>
+                <select name="dropdown" class="ipt" id="convertfrom">
+                  <option value="INR">Indian Rupees(INR)</option>
+                  <option value="USD">US Dollar</option>
+                  <option value="EUR">Euro</option>
+                  <!-- Add more options as needed -->
+                </select>
+              </div>
+              <div class="room">
+                <h5>To</h5>
+                <select name="dropdown" class="ipt" id="convertto">
+                  <option value="USD">US Dollar</option>
+                  <option value="INR">Indian Rupees(INR)</option>
+                  <option value="EUR">Euro</option>
+                  <!-- Add more options as needed -->
+                </select>
+              </div>
+            </div>
+            <div class="ans">
+              <p class="inputval">1 us dollar=</p>
+              <p class="ansval">82.998915 Indian Rupees</p>
+              
+            </div>
+            <div class="box3">
+              <p>We use the mid-market rate for our Converter. This is for informational purposes only. You won’t receive this rate when sending money.</p>
+              <button type="submit" id="submit">Convert</button>
+            </div>
+        </div>
+        </div>
+        <div class="container-3">
+            <div class="rlist">
+
+            </div>
+        </div>
+        
+      </main>
+    </div>
+    
+      <footer>Copyright MyCurrencyConverter.com | All Rights Reserved</footer>
+      
+    
+  </body>
+  <script src="script.js"></script>
+</html>
